@@ -26,8 +26,9 @@ This project is a combination of a Spring Boot backend and a JavaFX frontend, de
    git clone https://github.com/your-username/your-repository.git
 
 2.**Build the Project:**
-   cd your-repository
-   mvn clean install
+
+   -cd your-repository
+   -mvn clean install
 
 3.**Run the Application:**
    java -jar target/your-application.jar
