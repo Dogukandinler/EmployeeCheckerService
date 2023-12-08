@@ -23,7 +23,7 @@ This project is a combination of a Spring Boot backend and a JavaFX frontend, de
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/Dogukandinler/EmployeeCheckerService.git
 
 2.**Build the Project:**
 
@@ -31,7 +31,7 @@ This project is a combination of a Spring Boot backend and a JavaFX frontend, de
    -mvn clean install
 
 3.**Run the Application:**
-   java -jar target/your-application.jar
+   java -jar target/EmployeeCheckerService.jar
 
 4. **Access the Service:**
 
