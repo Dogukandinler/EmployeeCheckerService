@@ -24,3 +24,27 @@ This project is a combination of a Spring Boot backend and a JavaFX frontend, de
 
    ```bash
    git clone https://github.com/your-username/your-repository.git
+
+2.**Build the Project:**
+   cd your-repository
+   mvn clean install
+
+3.**Run the Application:**
+   java -jar target/your-application.jar
+
+4. **Access the Service:**
+
+Open a web browser and navigate to `http://localhost:8080` to interact with the service.
+
+## Configuration
+
+- The port number and other configurations can be modified in the `application.properties` file.
+
+## Usage
+
+1. Launch the application.
+2. The captcha-like window will appear randomly on the screen every 30 minutes.
+3. Respond within 30 seconds to confirm your presence.
+4. The service will send requests with your MAC address upon successful verification.
+5. If no response is received, notification requests will be sent.
+
